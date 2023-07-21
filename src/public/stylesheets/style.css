@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(255, 233, 215);
+    margin: auto;
+}
+
+.hide{
+    display:none;
+}
+
+.game div {
+    height: 200px;
+    width: 150px;
+    margin: 10px;
+    border: 1px black solid;
+    border-radius: 12.5px;
+    background-color: white;
+}
+
+.game > div {
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+.hiddenCard {
+    /* bg pattern taken from:
+    https://www.magicpattern.design/tools/css-backgrounds */
+    background-color: #f9f9fd;
+    opacity: 1;
+    background-image:  linear-gradient(135deg, #ff0000 25%, transparent 25%), linear-gradient(225deg, #ff0000 25%, transparent 25%), linear-gradient(45deg, #ff0000 25%, transparent 25%), linear-gradient(315deg, #ff0000 25%, #f9f9fd 25%);
+    background-position:  10px 0, 10px 0, 0 0, 0 0;
+    background-size: 10px 10px;
+    background-repeat: repeat;
+
+    font-size: 0;
+}
+
+h2 {
+    display:inline;
+    color: red;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+}
